@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
 
-.germania-one-regular {
+.page-wrapper {
   font-family: "Germania One", system-ui;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
+}
+
+.preamble {
+   
+   border: 10px solid rgb(196, 0, 255);
+   border-style: dashed;
+  background: linear-gradient(to right, rgb(255, 64, 141)0%, rgb(151, 151, 254)60%, rgb(12, 223, 255)100%);
+  
+}
+
+.intro {
+  image: url('image 2.png');
+  background-size: 600%;
+
+
 }
