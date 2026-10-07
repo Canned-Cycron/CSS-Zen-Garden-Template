@@ -1,1 +1,7 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
