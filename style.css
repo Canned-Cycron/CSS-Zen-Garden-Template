@@ -7,27 +7,20 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  block-size: 100vh;
-  background-color: #101d30;
   background-image: url('image 1.png');
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-position: top left;
   background-attachment: fixed;
-  color: #eaffff;
-}
-{
+
   background-image: url('image 2.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  color: #eaffff;
+  background-size: 75%;
+  background-position: center;
+  background-attachment: absolute;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .page-wrapper {
@@ -40,9 +33,9 @@ body {
 
 .intro header {
   padding: 12px;
+  size: 100%;
   text-align: center;
   background: #b77eaf;
-  border-block-end: 4px solid #ed45ff;
 }
 
 .intro h1,
@@ -89,25 +82,20 @@ body {
 }
 
 .benefits {
-  position: relative;
   z-index: 2;
   inline-size: 36%;
   margin-block-start: -5px;
   padding: 12px;
   color: #26305d;
   background: linear-gradient(
-    to bottom,
-    #97ffee,
-    #8ab5ff
+    to bottom, #97ffee, #8ab5ff
   );
 }
 
 .participation {
-  position: relative;
   z-index: 2;
   inline-size: 36%;
-  margin-block-start: -110px;
-  margin-inline-start: 2%;
+  margin-block-start: -300px;
   padding: 12px;
   color: #26305d;
   background: linear-gradient(
@@ -119,7 +107,7 @@ body {
 .requirements {
   position: relative;
   inline-size: 36%;
-  margin-block-start: -1100px;
+  margin-block-start: -100px;
   margin-inline-start: 70%;
   padding: 12px;
   color: #26305d;
