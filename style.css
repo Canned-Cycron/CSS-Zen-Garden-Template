@@ -8,12 +8,6 @@
 }
 
 body {
-  background-image: url('image 1.png');
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: top left;
-  background-attachment: fixed;
-
   background-image: url('image 2.png');
   background-repeat: no-repeat;
   background-size: 75%;
@@ -82,6 +76,9 @@ body {
 }
 
 .benefits {
+  top: -300px;
+  right: 40px;
+  position: relative;
   z-index: 2;
   inline-size: 36%;
   margin-block-start: -5px;
@@ -93,6 +90,9 @@ body {
 }
 
 .participation {
+  top: 39px;
+  left: 360px;
+  position: relative;
   z-index: 2;
   inline-size: 36%;
   margin-block-start: -300px;
@@ -105,6 +105,7 @@ body {
 
 
 .requirements {
+  top: -340px;
   position: relative;
   inline-size: 36%;
   margin-block-start: -100px;
@@ -124,8 +125,10 @@ body {
 }
 
 .preamble {
+  top: 689px;
+  right: 0px;
   position: relative;
-  z-index: 3;
+  z-index: 3;  
   inline-size: 100%;
   margin: 100px 0 50px;
   padding: 14px;
@@ -151,13 +154,12 @@ body {
 }
 
 .explanation {
-  position: relative;
+  position: absolute;
+  top: 1300px;
   inline-size: 100%;
   margin: 0 auto 35px;
   padding: 15px;
   color: white;
-  background: rgba(5, 20, 36, 0.82);
-  border: 3px solid #a000ff;
 }
 
 .explanation h3 {
@@ -172,9 +174,9 @@ body {
   vertical-align: top;
   inline-size: 46%;
   margin: 1%;
-  padding: 12px;
+  padding: 36px;
   background: #bd8bfa;
-  border: 3px solid #7a00ff;
+  border: 3px solid #5b2c8d;
   color: white;
   line-height: 1.5;
 }
@@ -187,9 +189,7 @@ body {
   inline-size: 30%;
   padding: 12px 10px;
   background: linear-gradient(
-    to bottom,
-    #8c18ff,
-    #00e9ee
+    to bottom,#8c18ff, #00e9ee
   );
   color: #fffc50;
   border: 2px solid #f02aff;
